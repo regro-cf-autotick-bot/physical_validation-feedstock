@@ -125,4 +125,5 @@ Feedstock Maintainers
 =====================
 
 * [@mattwthompson](https://github.com/mattwthompson/)
+* [@ptmerz](https://github.com/ptmerz/)
 
