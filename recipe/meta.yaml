@@ -1,5 +1,5 @@
 {% set name = "physical_validation" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/shirtsgroup/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 166625feaadbd1cea8cdfda017b8b050ece751b8fe205ffbad0c16dff9119dfa
+  sha256: c0579adeb0c506d23b4139efccfd835f3a8a5e44177ebb4a58f034d9407a967d
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
